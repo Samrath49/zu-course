@@ -50,7 +50,7 @@ export default function EvaluationForm() {
               <FormField
                 name='type'
                 control={form.control}
-                render={({ field }) => (
+                render={() => (
                   <FormItem>
                     <Select>
                       <FormControl className='rounded-full text-[#5B6170]'>
@@ -70,7 +70,7 @@ export default function EvaluationForm() {
               <FormField
                 name='subject'
                 control={form.control}
-                render={({ field }) => (
+                render={() => (
                   <FormItem>
                     <Select>
                       <FormControl className='rounded-full text-[#5B6170]'>
