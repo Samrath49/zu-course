@@ -8,17 +8,17 @@ import Header from '@/components/Header'
 const montFont = localFont({
   src: [
     {
-      path: '../fonts/mont/Mont-Regular.ttf',
+      path: '../public/fonts/mont/Mont-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../fonts/mont/Mont-Semibold.ttf',
+      path: '../public/fonts/mont/Mont-Semibold.ttf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../fonts/mont/Mont-Bold.ttf',
+      path: '../public/fonts/mont/Mont-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
